@@ -1,7 +1,12 @@
 def linear_search(arr,x):
+    # Loop through the array from the first index (0) to the last one.
     for i in range(len(arr)):
+        # If the item at the current index matches the target...
         if arr[i]==x:
+            # ...return the index immediately.
             return i
+        
+    # If the loop finishes without finding the target, return -1.
     return -1
     
 

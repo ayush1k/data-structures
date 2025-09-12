@@ -5,7 +5,7 @@ def three_sum(arr, target = 1000):
     for i in range(n-2):
         for j in range(i+1, n-1):
             for k in range(j+1, n):
-                if arr[i] + arr[j] + arr[k] == 1000:
+                if arr[i] + arr[j] + arr[k] == target:
                     return arr[i], arr[j], arr[k]
                 
     return -1
